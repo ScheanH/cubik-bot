@@ -9,6 +9,7 @@ let HebergeurEmbed = new Discord.MessageEmbed()
 .setDescription('Permet de savoir l\'état de l\'hébergeur du bot')
 .setTitle('Hébergement')
 .addField('L\'état de votre Hébergeur est : \n\`ACTIF\`')
+.setFooter('Cubik Bot | Hébergeur', bot.user.displayAvatarURL({dynamic: true, size: 512}))
 
 message.channel.send(HebergeurEmbed)
 }
