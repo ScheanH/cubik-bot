@@ -9,6 +9,8 @@ let HebergeurEmbed = new Discord.MessageEmbed()
 .setDescription('Permet de savoir l\'état de l\'hébergeur du bot')
 .setTitle('Hébergement')
 .addField('L\'état de votre Hébergeur est : \n\`ACTIF\`')
+
+message.channel.send(HebergeurEmbed)
 }
 
 module.exports.config = {
